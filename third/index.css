@@ -1,0 +1,47 @@
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: lightgray;
+    padding: 10px 30px;
+}
+
+.header__logo {
+    height: 80px;
+    width: 80px;
+    background-color: blue;
+}
+
+.main {
+    height: 200px;
+    padding: 50px 50px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.bars {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bars__bar {
+    height: 100px;
+    width: 100%;
+}
+
+.bars__bar--blue {
+    background-color: blue;
+}
+
+.bars__bar--seafoam {
+    background-color: turquoise;
+}
+
+.bars__bar--lime {
+    background-color: greenyellow;
+}
+
+.bars__bar--yellow {
+    background-color: gold;
+}
